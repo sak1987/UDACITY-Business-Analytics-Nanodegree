@@ -9,3 +9,6 @@ program is also great preparation for more advanced programs, such as the Data A
 Analyst Nanodegree programs.
 
 You can explore more about the nanodegree details via accessing the [LINK](https://www.udacity.com/course/business-analytics-nanodegree--nd098)
+
+
+This is my first Udacity Nanodegree experience,I am looking forward to enrol in other Udacity Nanodegree courses. The experience of the course proven to provide students with a variety of benefits.
