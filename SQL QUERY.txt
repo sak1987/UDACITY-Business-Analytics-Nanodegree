@@ -1,0 +1,40 @@
+#Query 1, Total Amount spent By Country
+
+SELECT SUM(total),country 
+FROM customer a,Invoice b 
+WHERE a.customerid= b.customerid
+GROUP BY country;
+
+
+#Query 2,Whats the maximum number of Track sold by Genre?
+
+SELECT Genre.Name Genre, count(GENRE.Name) Total_Tracks
+FROM InvoiceLine
+JOIN Track
+ON InvoiceLine.TrackId = Track.TrackId
+JOIN Genre
+ON Track.GenreId = Genre.GenreId
+GROUP BY Genre
+ORDER BY total_tracks
+
+
+#Query 3,What's the Top 10 title song with minimum duration (millisecond)?
+
+SELECT Album.Title, min(Track.Milliseconds) Milliseconds
+FROM Album
+JOIN Track
+ON Album.AlbumId = Track.AlbumId
+GROUP BY Album.Title
+ORDER BY Milliseconds
+LIMIT 10
+
+#Query 4,Who is the top selling agent in 2009 ?
+
+SELECT Employee.FirstName,sum(Invoice.Total) as total
+From Invoice
+JOIN Customer on Customer.CustomerId = Invoice.CustomerId
+JOIN Employee on Employee.EmployeeId = Customer.SupportRepId
+WHERE Invoice.InvoiceDate like '2009%'
+GROUP BY Employee.EmployeeId
+ORDER BY total DESC
+
