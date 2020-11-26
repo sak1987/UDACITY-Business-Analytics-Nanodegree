@@ -4,11 +4,11 @@
 This is a course on - **_Business Analytics Nanodegree at Udacity learning platform_**. Can explore more about the nanodegree details via accessing [Udacity!](https://www.udacity.com/).
 
 
-**##The Aim of the course:**
+## **The Aim of the course:**
 
 To learn foundational data skills that apply across functions and industries. Learn to analyze data and build models with Excel, query databases using SQL, and create informative data visualizations with Tableau. Gain foundational data skills applicable to any industry. Collect and analyze data, model business scenarios, and communicate your findings with SQL, Excel, and Tableau.
 
-##**Program Curriculam:**
+## **Program Curriculam:**
 
 - WELCOME TO THE PROGRAM Meet your instructors and learn how to optimize your classroom. Learn how people use data to answer questions, and find your own insights from a data dashboard. **Project 1: Interpret Data Visualization**
 In this project, you’ll explore an interactive data dashboard to uncover insights. You’ll write a short report explaining each insight, and how you found the information to reach your conclusion from the dashboard.
@@ -26,7 +26,7 @@ In this project, you will query a digital music store database which holds infor
 In this project, you’ll build interactive dashboards with Tableau and use them to discover and communicate insights from data. You’ll use a dataset of flight delays in the US to visualize the quality of airlines and airports, find the best times to fly, and more.
 
 
-##**Technologies Used:**
+## **Technologies Used:**
 1. Tableau
 2. SQL
 3. EXCEL
