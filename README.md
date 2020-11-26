@@ -1,4 +1,5 @@
-## **UDACITY-Business-Analytics-Nanodegree**.
+                                                     ## **UDACITY-Business-Analytics-Nanodegree**.
+                                             ![image](https://user-images.githubusercontent.com/33560386/100372610-f0171d00-3022-11eb-96d8-7bddd9221fa6.png)
 
 
 This is a course on - **_Business Analytics Nanodegree at Udacity learning platform_**. Can explore more about the nanodegree details via accessing [Udacity!](https://www.udacity.com/).
